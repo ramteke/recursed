@@ -5,3 +5,36 @@ Ex. 2 translates to 'abc', 3 to 'def' and so on.
 So, for 23 you have combination as 'ad', ae', 'af', 'bd'
 
 There is no constraint on number of keys being pressed. Ex. 23 has 2 keys, 33324 has 5 keys and so on
+
+How to Solve
+-------------------
+Treat each key Press as level.
+For Each Level you have to iterate through all the numbers of next level
+    Example: For 2-Level Key Press, 4(abc) 5(pqr)
+             For level-1 'a' , you need to iterate through all the values of next level, i.e
+                         ap, aq, ar
+
+Once Current level is done. Move to next level and again iterate through all items in next level + 1
+
+Put this in a recursive loop and it will give the desired result.
+
+
+Coding
+---------------------
+
+ public static void recursed(int levelCounter[], int levelMax[], int level) {
+        if ( level >= levelCounter.length) {
+            return;     //The EXIT condition out of recursion
+        }
+
+        for (int i = 0; i < levelMax[level]; i++) {
+            printLevel(levelCounter);
+            recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
+
+            levelCounter[level]++;                            //This level is done..so increment its counter. For 'abc', it will take you from 'a' to 'b'
+            resetLevels(levelCounter, level+1);               //Next level needs equal changce to iterate again from 0. So reset it to 0th index
+        }
+
+    }
+
+
