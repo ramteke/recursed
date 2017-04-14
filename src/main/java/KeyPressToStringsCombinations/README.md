@@ -21,7 +21,7 @@ Put this in a recursive loop and it will give the desired result.
 
 Coding
 ---------------------
-
+<pre>
  public static void recursed(int levelCounter[], int levelMax[], int level) {
         if ( level >= levelCounter.length) {
             return;     //The EXIT condition out of recursion
@@ -31,10 +31,10 @@ Coding
             printLevel(levelCounter);
             recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
 
-            levelCounter[level]++;                            //This level is done..so increment its counter. For 'abc', it will take you from 'a' to 'b'
+            levelCounter[level]++;                            //This level is done..so increment its counter. For abc, it will take you from a to b
             resetLevels(levelCounter, level+1);               //Next level needs equal changce to iterate again from 0. So reset it to 0th index
         }
 
     }
-
+    </pre>
 
