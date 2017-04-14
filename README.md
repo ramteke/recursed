@@ -13,3 +13,6 @@ Interesting recusrsion problems !!
 		Given a 2D array, get Starting Indexes of all paths that match a give string.
 		Valid paths are horizontal, vertical and diagonal (left -> right)
 		https://github.com/ramteke/recursed/tree/master/src/main/java/AllPathsin2DArrayMatchingGivenPathSequence
+		
+3. Longest sequence of Consecutive characters in a 2D matrix<br>
+                https://github.com/ramteke/recursed/blob/master/src/main/java/LongestSequencePathIn2DMatix/README.md
