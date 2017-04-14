@@ -9,7 +9,7 @@ With Recursion it is easy to hold MIN/MAX values as MIN and MAX will come to you
 
 For this you need to trigger recursion outside, whenever a starting condition is met
 
-//Alternative to this problem would be to get max length of path with consecutive letters. That we can solve without addtional datastructure.
+//Alternative to this problem would be to get max length of path with consecutive letters. 
 
 
 
