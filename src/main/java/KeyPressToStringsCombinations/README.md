@@ -4,7 +4,30 @@ User pressed numbers on keypad. What all possible combinations of words can be g
 Ex. 2 translates to 'abc', 3 to 'def' and so on.<br>
 So, for 23 you have combination as 'ad', ae', 'af', 'bd' ....,<br><br>
 
-There is no constraint on number of keys being pressed. Ex. 23 has 2 keys, 33324 has 5 keys and so on<br><br>
+There is no constraint on number of keys being pressed.
+<pre>
+Example, Key Press: 259, can have below combinations for 2 = "DEF", 5 = "MNO", 9 = "YZ"
+
+DMY
+DMZ
+DNY
+DNZ
+DOY
+DOZ
+EMY
+EMZ
+ENY
+ENZ
+EOY
+EOZ
+FMY
+FMZ
+FNY
+FNZ
+FOY
+FOZ
+</pre>
+
 
 LOGIC<br><br>
 <hr>
@@ -35,7 +58,7 @@ Coding<br><br>
          for (int i = 0; i < levelMax[level]; i++) {
              recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
 
-             levelCounter[level]++;                            //This level is done..so increment its counter. For 'abc', it will take you from 'a' to 'b'
+             levelCounter[level]++;                            //This level is done..so increment its counter. For abc, it will take you from a to b
              resetLevels(levelCounter, level+1);               //Next level needs equal changce to iterate again from 0. So reset it to 0th index
          }
 
