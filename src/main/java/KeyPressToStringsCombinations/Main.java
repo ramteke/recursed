@@ -10,12 +10,16 @@ public class Main {
     static String keyPressIndex [] ;
 
     public static void recursed(int levelCounter[], int levelMax[], int level) {
-        if ( level >= levelCounter.length) {
+        if ( level > levelCounter.length) {
             return;     //The EXIT condition out of recursion
         }
+        if ( level == levelCounter.length) {
+            printLevel(levelCounter);
+            return;
+        }
+
 
         for (int i = 0; i < levelMax[level]; i++) {
-            printLevel(levelCounter);
             recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
 
             levelCounter[level]++;                            //This level is done..so increment its counter. For 'abc', it will take you from 'a' to 'b'
@@ -63,7 +67,7 @@ public class Main {
         for (int i = 0; i < levelCounter.length; i++) {
             String key = keyPressIndex[i];
             String possibleCharacters = key2ValueMap.get(key);
-
+            //System.out.print(levelCounter[i]);
             System.out.print(possibleCharacters.charAt(levelCounter[i]));
         }
         System.out.println("");

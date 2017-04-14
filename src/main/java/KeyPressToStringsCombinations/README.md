@@ -23,18 +23,21 @@ Coding<br><br>
 <hr>
 <pre>
  public static void recursed(int levelCounter[], int levelMax[], int level) {
-        if ( level >= levelCounter.length) {
-            return;     //The EXIT condition out of recursion
-        }
+         if ( level > levelCounter.length) {
+             return;     //The EXIT condition out of recursion
+         }
+         if ( level == levelCounter.length) {
+             printLevel(levelCounter);
+             return;
+         }
 
-        for (int i = 0; i < levelMax[level]; i++) {
-            printLevel(levelCounter);
-            recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
 
-            levelCounter[level]++;                            //This level is done..so increment its counter. For abc, it will take you from a to b
-            resetLevels(levelCounter, level+1);               //Next level needs equal changce to iterate again from 0. So reset it to 0th index
-        }
+         for (int i = 0; i < levelMax[level]; i++) {
+             recursed(levelCounter, levelMax, level  + 1);     //Go to one level up
 
-    }
-    
+             levelCounter[level]++;                            //This level is done..so increment its counter. For 'abc', it will take you from 'a' to 'b'
+             resetLevels(levelCounter, level+1);               //Next level needs equal changce to iterate again from 0. So reset it to 0th index
+         }
+
+ }
 
