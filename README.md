@@ -16,3 +16,6 @@ Interesting recusrsion problems !!
 		
 3. Longest sequence of Consecutive characters in a 2D matrix<br>
                 https://github.com/ramteke/recursed/blob/master/src/main/java/LongestSequencePathIn2DMatix/README.md
+		
+4. Given any number of strings, ex "AB" "CD", combine them such that characters within words maintain sequence
+		https://github.com/ramteke/recursed/tree/master/src/main/java/CombineMultipleStringsInSequence
