@@ -22,3 +22,6 @@ Interesting recusrsion problems !!
 		
 5. Given any number of strings, ex "AB" "CD", combine them such that characters within words maintain sequence
 		https://github.com/ramteke/recursed/tree/master/src/main/java/CombineMultipleStringsInSequence
+		
+6. Levenshtein distance (LD), i.e. Measure of the similarity between two strings
+		https://github.com/ramteke/recursed/tree/master/src/main/java/LevenshteinDistance
