@@ -31,3 +31,6 @@ Interesting recusrsion problems !!
 7. Child Running staris in multiple Hops (1 step OR 2 step OR 3 step). How many possible ways child can run up the stairs ?<br>
         https://github.com/ramteke/recursed/tree/master/src/main/java/TripleRecursion
 
+
+7. 8 Queen: Classic Algo Problem<br>
+        https://github.com/ramteke/recursed/tree/master/src/main/java/EightQueen
