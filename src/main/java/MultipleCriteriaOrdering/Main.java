@@ -20,7 +20,7 @@ class Box {
     }
 
     public boolean isValid(Box anotherBox) {
-        return (this.weight >= anotherBox.weight);
+        return (this.weight >= anotherBox.weight && this.depth >= anotherBox.depth);
     }
 }
 
