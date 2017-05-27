@@ -23,3 +23,8 @@ Interesting recusrsion problems !!
 5. Given any number of strings, ex "AB" "CD", combine them such that characters within words maintain sequence
 		https://github.com/ramteke/recursed/tree/master/src/main/java/CombineMultipleStringsInSequence
 		
+6. Multiple Criteria Ordering
+        Example: Order Boxes (Height/Weight/Depth) based on increasing height such that each box has lower weight and depth
+        Example: Order People on increasing height such that weight is lower for each next person in line.
+		https://github.com/ramteke/recursed/tree/master/src/main/java/MultipleCriteriaOrdering
+
