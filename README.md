@@ -34,3 +34,6 @@ Interesting recusrsion problems !!
 
 7. 8 Queen: Classic Algo Problem<br>
         https://github.com/ramteke/recursed/tree/master/src/main/java/EightQueen
+
+8. Pancake Sorting
+        https://github.com/ramteke/recursed/tree/master/src/main/java/PancakeSorting
