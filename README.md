@@ -28,3 +28,6 @@ Interesting recusrsion problems !!
         Example: Order People on increasing height such that weight is lower for each next person in line.
 		https://github.com/ramteke/recursed/tree/master/src/main/java/MultipleCriteriaOrdering
 
+7. Child Running staris in multiple Hops (1 step OR 2 step OR 3 step). How many possible ways child can run up the stairs ?
+        https://github.com/ramteke/recursed/tree/master/src/main/java/TripleRecursion
+
