@@ -15,7 +15,7 @@ Interesting recusrsion problems !!
 		https://github.com/ramteke/recursed/tree/master/src/main/java/AllPathsin2DArrayMatchingGivenPathSequence
 		
 3. Longest sequence of Consecutive characters in a 2D matrix<br>
-                https://github.com/ramteke/recursed/blob/master/src/main/java/LongestSequencePathIn2DMatix/README.md
+                https://github.com/ramteke/recursed/blob/master/src/main/java/LongestSequencePathIn2DMatix
 
 4. Jumbel Words. Permutate and Combinate
 		https://github.com/ramteke/recursed/tree/master/src/main/java/PermutationAndCombinations
@@ -35,5 +35,3 @@ Interesting recusrsion problems !!
 7. 8 Queen: Classic Algo Problem<br>
         https://github.com/ramteke/recursed/tree/master/src/main/java/EightQueen
 
-8. Pancake Sorting
-        https://github.com/ramteke/recursed/tree/master/src/main/java/PancakeSorting
